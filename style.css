@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Bevellier Regular";
+  src: url("assets/Bevellier-Regular.woff") format("woff"),
+       url("assets/Bevellier-Regular.woff2") format("woff2");
+}
+
+body {
+    /* vertical and horizontal alignment   */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Bevellier Regular;
+    
+}
+h1 {
+  font-size: 30pt;
+}
+
+main {
+  /* basic styling   */
+  outline: 4px solid black;
+  height: 400px;
+  width: 400px;
+  background-color: skyblue;
+  /* change if you like */
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+
+p {
+  text-align: left;
+  padding-left: 10px;
+}
+data:hover {
+  color: yellow;
+}
+img {
+  width: 6em;
+}
